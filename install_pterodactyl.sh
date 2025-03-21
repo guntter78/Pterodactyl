@@ -4,13 +4,13 @@
 set -e
 
 # Variabelen
-DB_PASSWORD=""
-PANEL_DOMAIN=""
-EMAIL=""
-ADMIN_USERNAME=""
-ADMIN_PASSWORD=""
-ADMIN_FIRSTNAME=""
-ADMIN_LASTNAME=""
+DB_PASSWORD="own dbpassword"
+PANEL_DOMAIN="own domein"
+EMAIL="own e-mail"
+ADMIN_USERNAME="own adminname"
+ADMIN_PASSWORD="own password"
+ADMIN_FIRSTNAME="own firstname"
+ADMIN_LASTNAME="own lastname"
 
 # Systeem bijwerken en pakketten installeren
 apt update && apt upgrade -y
